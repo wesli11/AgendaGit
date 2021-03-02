@@ -6,4 +6,5 @@ public interface CalculadoraBasicaService {
 	
 	public int restar(int a, int b);
 
+	public void metodoTeam();
 }

@@ -14,4 +14,9 @@ public class CalculadoraBasicaServiceImpl implements CalculadoraBasicaService{
 		return a-b;
 	}
 
+	@Override
+	public void metodoTeam() {
+      System.out.println("METODO TEAMS");		
+	}
+
 }
