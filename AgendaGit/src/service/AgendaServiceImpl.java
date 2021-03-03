@@ -12,5 +12,10 @@ public class AgendaServiceImpl implements AgendaService{
 	public void insertarContacto(Persona p) {
            		lista.add(p);
 	}
+	
+	public Persona buscarPersona(int id) {
+		System.out.println("metodo agregado");
+		return lista.get(id);   
+	}
 
 }
