@@ -18,4 +18,9 @@ public class AgendaServiceImpl implements AgendaService{
 		return lista.get(id);   
 	}
 
+	@Override
+	public void metodoDelTeams() {
+     System.out.println("METODO DEL OTRO EQUIPO");		
+	}
+
 }
